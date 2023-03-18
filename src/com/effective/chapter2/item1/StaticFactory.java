@@ -11,6 +11,6 @@ public class StaticFactory {
     }
 
     public static StaticFactory newInstance(){
-        return newInstance();
+        return new StaticFactory();
     }
 }
