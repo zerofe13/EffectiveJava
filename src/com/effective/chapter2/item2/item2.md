@@ -137,3 +137,11 @@ public class NutritionFactsV2 {
 }
 
 ```
+
+***
+### Builder 를 정적 내부 클래스로 만들어야 하는이유
+중첩클래스 에는 static inner class 와 inner class 가 존재한다  
+static inner class의 경우 inner class와 달리 외부 클래스와 독립적으로  
+존재하기 때문에 inner class 의 문제점인 메모리 누수로 부터 자유롭다.  
+또한 Builder 룰 static inner class 로 만들경우 응집도 올라가고  
+namespace 충돌을 방지할수있다.
