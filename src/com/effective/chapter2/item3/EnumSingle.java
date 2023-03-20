@@ -1,5 +1,7 @@
 package com.effective.chapter2.item3;
 
-public enum EnumSingle {
+import java.io.Serializable;
+
+public enum EnumSingle implements Serializable {
     INSTANCE;
 }
