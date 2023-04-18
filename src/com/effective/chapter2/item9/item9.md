@@ -50,7 +50,7 @@ public static String inputString() throws IOException {
 }
 ```
 
-훨씬 가독성이 좋아진 모습을 볼수있다. 또한 try-with-resource는 try영역에서 발생하는 에러와,close() 발생할수 있는 문제를 모두 보여준다.
+훨씬 가독성이 좋아진 모습을 볼수있다. 또한 try-with-resource는 try영역에서 발생하는 에러와,close() 발생하는 오류를 누락없이 모두 보여준다.
 <br><br>
 이러한 try with resources를 사용하기 위해선 AutoCloseable 인터페이스를 상속받아 close()메서드르 재정의 해야한다.
 
