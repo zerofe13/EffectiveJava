@@ -135,7 +135,6 @@ public class NutritionFactsV2 {
         carbohydrate = builder.carbohydrate;
     }
 }
-
 ```
 
 ***

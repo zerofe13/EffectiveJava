@@ -11,6 +11,7 @@ private 타입을 이용할 경우 readResolve() 메소드를 재정의 하지 �
 
 ***
 ### 예시코드
+
 readReolve() x
 ```java
     import java.io.Serializable;
@@ -23,6 +24,7 @@ readReolve() x
         public static SingleV1 getInstance = INSTANCE;
 }
 ```
+
 readReolve() o
 ```java
     import java.io.Serializable;
@@ -46,8 +48,8 @@ enum
     public enum EnumSingle {
     INSTANCE;
     }
-
 ```
+
 test
 ```java
 import java.io.ByteArrayInputStream;
